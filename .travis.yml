@@ -1,0 +1,8 @@
+language: java
+
+jdk: 
+  - openjdk11
+
+sudo:
+
+script: 'mvm install -dskipTets=true -[maven.javadoc.skip=true -b -v'
