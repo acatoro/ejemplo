@@ -5,6 +5,8 @@ on: [push]
 jobs:
   ejemplo:
     runs-on: ubuntu-latest
-      action "comchangs/action-maven" {
-      uses = "comchangs/action-maven@master"
-      args = "clean compile test" }
+    steps:
+    - action "comchangs/action-maven" {
+        uses = "comchangs/action-maven@master"
+        args = "clean compile test"  
+    }
