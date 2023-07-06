@@ -1,1 +1,10 @@
+name: ejemplo
 
+on: [push]
+
+jobs:
+  ejemplo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: action-maven
+      uses: comchangs/action-maven@v0.4-beta
