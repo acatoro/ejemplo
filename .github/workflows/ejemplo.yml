@@ -6,7 +6,4 @@ jobs:
   ejemplo:
     runs-on: ubuntu-latest
     steps:
-    - action "comchangs/action-maven" {
-        uses = "comchangs/action-maven@master"
-        args = "clean compile test"  
-    }
+    - uses: "comchangs/action-maven@master" 
