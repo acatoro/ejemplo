@@ -5,5 +5,3 @@ on: [push]
 jobs:
   ejemplo:
     runs-on: ubuntu-latest
-    steps:
-    - uses: "comchangs/action-maven@master" 
