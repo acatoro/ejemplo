@@ -1,6 +1,8 @@
 name: ejemplo
 
-on: [push]
+on: 
+ push:
+ workflow_dispatch:
 
 jobs:
   ejemplo:
