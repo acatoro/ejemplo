@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: cazziwork/create-release-note@v1.0.0
       with:
-       github-token: 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
+       github-token: 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
        tag: 1.0
