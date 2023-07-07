@@ -12,7 +12,4 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: google-github-actions/create-cloud-deploy-release@v0.1.2
-      with:
-       name: 1.0
-       delivery_pipeline: release
+    - uses: cazziwork/create-release-note@v1.0.0
