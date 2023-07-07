@@ -9,3 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/setup-node@v3.7.0
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: google-github-actions/create-cloud-deploy-release@v0.1.2
