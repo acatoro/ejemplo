@@ -6,4 +6,4 @@ jobs:
   ejemplo:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/first-interaction@v1
+    - uses: advanced-security/maven-dependency-submission-action@v3.0.2
