@@ -13,3 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: cazziwork/create-release-note@v1.0.0
+      with:
+       github-token: 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
